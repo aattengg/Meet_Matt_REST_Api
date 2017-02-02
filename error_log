@@ -1,0 +1,39 @@
+[01-Feb-2017 17:54:53 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 17:54:53 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 17:54:53 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:45:23 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:45:23 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:45:23 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:20 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:20 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:20 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:22 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:22 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:22 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:30 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:30 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 22:48:30 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 23:12:12 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 23:12:12 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 23:12:12 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 7
+[01-Feb-2017 23:13:02 America/New_York] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:13:04 America/New_York] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:13:05 America/New_York] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:13:30 America/New_York] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:13:46 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:13:46 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:13:46 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:16:51 America/New_York] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:16:53 America/New_York] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:17:10 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:17:10 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:17:10 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:20:55 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:20:55 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:20:55 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:20:56 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:20:56 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:20:56 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:30:16 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:30:16 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[01-Feb-2017 23:30:16 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
