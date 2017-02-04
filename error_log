@@ -37,3 +37,7 @@
 [01-Feb-2017 23:30:16 America/New_York] PHP Notice:  Undefined variable: servername in /home/meetdopa/api.meetmatt.ca/index.php on line 8
 [01-Feb-2017 23:30:16 America/New_York] PHP Notice:  Undefined variable: username in /home/meetdopa/api.meetmatt.ca/index.php on line 8
 [01-Feb-2017 23:30:16 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'meetdopa'@'localhost' (using password: YES) in /home/meetdopa/api.meetmatt.ca/index.php on line 8
+[04-Feb-2017 05:42:07 UTC] PHP Fatal error:  Class 'App\Providers\Schema' not found in /home/meetdopa/api.meetmatt.ca/app/Providers/AppServiceProvider.php on line 17
+[04-Feb-2017 05:42:34 UTC] PHP Fatal error:  Class 'App\Providers\Schema' not found in /home/meetdopa/api.meetmatt.ca/app/Providers/AppServiceProvider.php on line 17
+[04-Feb-2017 05:42:58 UTC] PHP Fatal error:  Class 'App\Providers\Schema' not found in /home/meetdopa/api.meetmatt.ca/app/Providers/AppServiceProvider.php on line 17
+[04-Feb-2017 05:44:09 UTC] PHP Fatal error:  Class 'App\Providers\Schema' not found in /home/meetdopa/api.meetmatt.ca/app/Providers/AppServiceProvider.php on line 17
