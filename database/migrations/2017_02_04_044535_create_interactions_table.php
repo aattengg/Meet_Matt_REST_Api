@@ -16,7 +16,8 @@ class CreateInteractionsTable extends Migration
         Schema::create('interactions', function (Blueprint $table) {
             $table->increments('id');
             $table->double('weight');
-            $table->datetime(date_time);
+            $table->datetime('date_time');
+            $table->integer('user_id')
             $table->timestamps();
         });
     }
