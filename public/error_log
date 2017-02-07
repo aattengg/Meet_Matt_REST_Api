@@ -1,0 +1,7 @@
+[05-Feb-2017 21:42:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/meetdopa/api.meetmatt.ca/app/Providers/v1/InteractionsServiceProvider.php on line 31
+[05-Feb-2017 21:43:26 UTC] PHP Fatal error:  Class 'Router' not found in /home/meetdopa/api.meetmatt.ca/routes/api.php on line 20
+[05-Feb-2017 21:52:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/meetdopa/api.meetmatt.ca/app/Http/Controllers/v1/InteractionsController.php on line 13
+[05-Feb-2017 21:54:26 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/meetdopa/api.meetmatt.ca/app/Http/Controllers/v1/InteractionsController.php on line 13
+[05-Feb-2017 21:54:27 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/meetdopa/api.meetmatt.ca/app/Http/Controllers/v1/InteractionsController.php on line 13
+[05-Feb-2017 21:55:37 UTC] PHP Parse error:  syntax error, unexpected '/', expecting \\ (T_NS_SEPARATOR) or ';' or '{' in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 2
+[05-Feb-2017 21:56:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 9
