@@ -17,6 +17,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::resource('/v1/interactions',v1\InteractionsController::class);
-Route::resource('v1/users',v1\UsersController::class);
+Route::resource('/v1/interactions',v1\InteractionsController::class, [
+    'except' => ['create','edit']
+]);
+Route::resource('v1/users',v1\UsersController::class, [
+    'except' => ['create','edit']
+]);
 ?>

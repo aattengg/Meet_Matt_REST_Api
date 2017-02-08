@@ -29,16 +29,6 @@ class InteractionsController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -46,7 +36,13 @@ class InteractionsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        try{
+            $interaction = $this->interactions->createInteraction($request);
+        } catch (Exception $e) {
+            return response()->json(['message'=> $e->getMessage()],500);
+        }
+        
+        return response()->json($interaction,201);
     }
 
     /**
@@ -56,17 +52,6 @@ class InteractionsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
     {
         //
     }

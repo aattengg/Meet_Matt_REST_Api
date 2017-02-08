@@ -21,6 +21,17 @@
             return $this->filterInteractions($interactions);
         }
         
+        public function createInteraction($request) {
+            $interaction = new Interactions();
+            $interaction->user_id = $request->input('user_id');
+            $interaction->weight = $request->input('weight');
+            $interaction->date_time = $request->input('date_time');
+            
+            $interaction->save();
+
+            return $this->filterInteractions([$interaction]);
+        }
+ 
         protected function filterInteractions($interactions) {        
             $data = [];
    
