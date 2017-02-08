@@ -10,3 +10,4 @@
 [07-Feb-2017 21:16:07 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 43
 [07-Feb-2017 21:33:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/meetdopa/api.meetmatt.ca/app/Http/Controllers/v1/InteractionsController.php on line 29
 [07-Feb-2017 21:36:01 UTC] PHP Fatal error:  Call to undefined method App\Services\v1\InteractionsService::getWhereClauses() in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 17
+[08-Feb-2017 20:21:54 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/meetdopa/api.meetmatt.ca/app/Services/v1/UsersService.php on line 10

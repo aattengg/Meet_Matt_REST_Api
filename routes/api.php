@@ -18,5 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::resource('/v1/interactions',v1\InteractionsController::class);
-
+Route::resource('v1/users',v1\UsersController::class);
 ?>
