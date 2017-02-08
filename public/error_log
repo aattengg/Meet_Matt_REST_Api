@@ -5,3 +5,8 @@
 [05-Feb-2017 21:54:27 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/meetdopa/api.meetmatt.ca/app/Http/Controllers/v1/InteractionsController.php on line 13
 [05-Feb-2017 21:55:37 UTC] PHP Parse error:  syntax error, unexpected '/', expecting \\ (T_NS_SEPARATOR) or ';' or '{' in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 2
 [05-Feb-2017 21:56:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 9
+[07-Feb-2017 21:00:05 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 9
+[07-Feb-2017 21:15:34 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 12
+[07-Feb-2017 21:16:07 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 43
+[07-Feb-2017 21:33:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/meetdopa/api.meetmatt.ca/app/Http/Controllers/v1/InteractionsController.php on line 29
+[07-Feb-2017 21:36:01 UTC] PHP Fatal error:  Call to undefined method App\Services\v1\InteractionsService::getWhereClauses() in /home/meetdopa/api.meetmatt.ca/app/Services/v1/InteractionsService.php on line 17

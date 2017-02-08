@@ -4,8 +4,21 @@
     use App\Interactions;
 
     class InteractionsService {
-        public function getInteractions() {
-            return $this->filterInteractions(Interactions::all());  
+        protected $clauseProperties = [
+            'user_id',
+            'date_time'
+        ];
+
+        public function getInteractions($parameters) {
+            if (empty($parameters)) {
+                return $this->filterInteractions(Interactions::all());  
+            }	
+            
+            $whereClauses = $this->getWhereClause($parameters);
+     
+            $interactions = Interactions::where($whereClauses)->get();
+            
+            return $this->filterInteractions($interactions);
         }
         
         protected function filterInteractions($interactions) {        
@@ -23,5 +36,17 @@
             
             return $data;
         }
+        
+        protected function getWhereClause($parameters) {
+            $clause = [];
+            
+            foreach ($this->clauseProperties as $prop) {
+                if (in_array($prop, array_keys($parameters))){
+                    $clause[$prop] = $parameters[$prop];
+                }
+            }
+            
+            return $clause;
+        } 
     }	
 ?>

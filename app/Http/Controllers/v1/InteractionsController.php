@@ -21,8 +21,10 @@ class InteractionsController extends Controller
      */
     public function index()
     {
-        $data = $this->interactions->getInteractions();
-
+        $parameters = request()->input();
+        $data = $this->interactions->getInteractions($parameters);
+	
+	//return $parameters;
         return response()->json($data);
     }
 
